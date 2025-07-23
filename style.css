@@ -1,3 +1,64 @@
-h3{
-    color: red;
+/* common css file */
+.body-width{
+    max-width: 1140px;
+    margin: 0 auto;
 }
+/* common css file */
+
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul > li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    gap: 48px;
+}
+.fa-cart-shopping{
+    margin-right: 8px;
+}
+
+.nav-font{
+    color: rgba(137, 135, 161, 1);
+}
+/* nav bar */
+/* banner........... */
+.banner{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+.banner-title{
+font-size: 4em;
+font-weight: 700;
+}
+.title-color{
+    color: rgb(233, 90, 8);
+}
+
+.banner-des{
+    color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 1.4em;
+font-weight: 400;
+}
+/* banner........... */
+
+/* Responsive.... */
+@media screen and (max-width: 576px) {
+    .nav-list{
+        display: none;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+}
+/* Responsive.... */
