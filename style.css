@@ -8,6 +8,10 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+.mar-gin{
+    margin-bottom: 80px;
+}
 /* common css file */
 
 /* nav bar */
