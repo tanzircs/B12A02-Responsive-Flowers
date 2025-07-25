@@ -375,5 +375,11 @@ ul > li {
 .badge-title, .banner-title, .deal-title{
   font-size: 2em;
 }
+.promo-box.large {
+  height: 160px;
+}
+.join-section{
+  height: 220px;
+}
 }
 /* Responsive.... */
